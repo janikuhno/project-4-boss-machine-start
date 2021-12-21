@@ -54,3 +54,8 @@ minionsRouter.delete("/:minionId", (req, res, next) => {
   }
   res.send();
 });
+
+/* GET /api/minions/:minionId/work to get an array of all work for the specified minon. */
+/* POST /api/minions/:minionId/work to create a new work object and save it to the database. */
+/* PUT /api/minions/:minionId/work/:workId to update a single work by id. */
+/* DELETE /api/minions/:minionId/work/:workId to delete a single work by id. */
